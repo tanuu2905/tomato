@@ -1,0 +1,35 @@
+
+.search-bar {
+  position: relative;
+  width: 200px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.search-results {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 10;
+  padding-left: 0;
+  margin-top: 0;
+  list-style: none;
+}
+
+.search-results li {
+  padding: 5px 10px;
+}
+
+.search-results li:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
