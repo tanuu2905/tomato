@@ -47,7 +47,7 @@ const SearchBar = ({ onSearch }) => {
         onChange={handleChange}
         autoComplete="off"
       />
-      {filteredItems.length > 0 && (
+{/*       {filteredItems.length > 0 && (
         <ul className="search-results">
           {filteredItems.map(item => (
             <li
@@ -59,7 +59,7 @@ const SearchBar = ({ onSearch }) => {
             </li>
           ))}
         </ul>
-      )}
+      )} */}
       {searchTerm && filteredItems.length === 0 && <div>No results found</div>}
     </div>
   );
