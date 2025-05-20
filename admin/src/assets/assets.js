@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://tamatar-tota-backend.onrender.com'
+export const url = 'https://foodie-backend-azqw.onrender.com'
